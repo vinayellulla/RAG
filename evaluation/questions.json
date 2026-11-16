@@ -1,0 +1,34 @@
+[
+  {"id": "att-1", "type": "single", "question": "What is multi-head attention and why is it used?", "expected_sources": ["attention"]},
+  {"id": "att-2", "type": "single", "question": "Why is the dot product scaled by the square root of the key dimension in scaled dot-product attention?", "expected_sources": ["attention"]},
+  {"id": "att-3", "type": "single", "question": "How does the Transformer inject information about word order using positional encodings?", "expected_sources": ["attention"]},
+  {"id": "att-4", "type": "single", "question": "What are the sub-layers inside a Transformer encoder layer and a decoder layer?", "expected_sources": ["attention"]},
+  {"id": "att-5", "type": "single", "question": "Why do the authors argue self-attention is better than recurrent or convolutional layers?", "expected_sources": ["attention"]},
+
+  {"id": "bert-1", "type": "single", "question": "How does BERT's masked language model pre-training task work?", "expected_sources": ["bert"]},
+  {"id": "bert-2", "type": "single", "question": "What is the next sentence prediction task in BERT?", "expected_sources": ["bert"]},
+  {"id": "bert-3", "type": "single", "question": "What are the sizes of BERT-base and BERT-large in layers, hidden size and attention heads?", "expected_sources": ["bert"]},
+  {"id": "bert-4", "type": "single", "question": "How is BERT fine-tuned for downstream tasks like question answering and classification?", "expected_sources": ["bert"]},
+  {"id": "bert-5", "type": "single", "question": "What embeddings make up BERT's input representation, and what is the [CLS] token for?", "expected_sources": ["bert"]},
+
+  {"id": "gan-1", "type": "single", "question": "What is the minimax objective between the generator and the discriminator in a GAN?", "expected_sources": ["generative"]},
+  {"id": "gan-2", "type": "single", "question": "How does the GAN training procedure alternate between updating the discriminator and the generator?", "expected_sources": ["generative"]},
+  {"id": "gan-3", "type": "single", "question": "What is the optimal discriminator for a fixed generator?", "expected_sources": ["generative"]},
+  {"id": "gan-4", "type": "single", "question": "When does the generator's distribution equal the data distribution in the global optimum?", "expected_sources": ["generative"]},
+  {"id": "gan-5", "type": "single", "question": "What are the advantages and disadvantages of adversarial nets compared to other generative models?", "expected_sources": ["generative"]},
+
+  {"id": "vit-1", "type": "single", "question": "How does the Vision Transformer split an image into patches and feed them to the Transformer?", "expected_sources": ["16x16"]},
+  {"id": "vit-2", "type": "single", "question": "What is the role of the class token in the Vision Transformer?", "expected_sources": ["16x16"]},
+  {"id": "vit-3", "type": "single", "question": "How does ViT handle position embeddings, and does the type of embedding matter?", "expected_sources": ["16x16"]},
+  {"id": "vit-4", "type": "single", "question": "What is the hybrid architecture in the Vision Transformer paper?", "expected_sources": ["16x16"]},
+  {"id": "vit-5", "type": "single", "question": "Why does ViT need large-scale pre-training compared to convolutional networks?", "expected_sources": ["16x16"]},
+
+  {"id": "cmp-1", "type": "comparison", "question": "Compare how the Transformer and ViT handle input data", "expected_sources": ["attention", "16x16"]},
+  {"id": "cmp-2", "type": "comparison", "question": "How does BERT differ from the original Transformer architecture?", "expected_sources": ["bert", "attention"]},
+  {"id": "cmp-3", "type": "comparison", "question": "How do positional encodings in the Transformer compare with position embeddings in ViT?", "expected_sources": ["attention", "16x16"]},
+
+  {"id": "off-1", "type": "off_topic", "question": "How do I fix nginx 502 upstream connection refused?", "expected_sources": []},
+  {"id": "off-2", "type": "off_topic", "question": "How do I troubleshoot a Kubernetes pod stuck in CrashLoopBackOff?", "expected_sources": []},
+  {"id": "off-3", "type": "off_topic", "question": "What is a good recipe for chocolate chip cookies?", "expected_sources": []},
+  {"id": "off-4", "type": "off_topic", "question": "Who won the football world cup in 2018?", "expected_sources": []}
+]
