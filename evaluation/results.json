@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-16T14:08:19",
+  "run_at": "2026-11-17T13:59:47",
   "config": {
     "chunk_size": 1000,
     "chunk_overlap": 150,
@@ -10,7 +10,7 @@
     "hit@k (single)": "20/20 (100%)",
     "top-1 (single)": "18/20 (90%)",
     "MRR (single)": 0.942,
-    "coverage (comparison)": "1/3 (33%)",
+    "coverage (comparison)": "2/3 (67%)",
     "rejection (off-topic)": "4/4 (100%)",
     "wrongly refused (answerable)": "0/23 (0%)"
   },
@@ -24,14 +24,16 @@
         "Image is Worth 16x16.pdf",
         "Attention is all you need.pdf",
         "Image is Worth 16x16.pdf",
-        "Image is Worth 16x16.pdf"
+        "Image is Worth 16x16.pdf",
+        "Attention is all you need.pdf"
       ],
       "distances": [
         0.875,
         1.093,
         1.111,
         1.154,
-        1.156
+        1.156,
+        1.18
       ],
       "best_distance": 0.875,
       "rank": 1,
@@ -70,14 +72,22 @@
         "BERT.pdf",
         "Attention is all you need.pdf",
         "Attention is all you need.pdf",
-        "Image is Worth 16x16.pdf"
+        "Image is Worth 16x16.pdf",
+        "Attention is all you need.pdf",
+        "Image is Worth 16x16.pdf",
+        "BERT.pdf",
+        "BERT.pdf"
       ],
       "distances": [
         0.822,
         0.983,
         0.998,
         0.999,
-        1.002
+        1.002,
+        1.022,
+        1.037,
+        1.069,
+        1.079
       ],
       "best_distance": 0.822,
       "rank": 3,
@@ -93,14 +103,18 @@
         "Attention is all you need.pdf",
         "Image is Worth 16x16.pdf",
         "Attention is all you need.pdf",
-        "Attention is all you need.pdf"
+        "Attention is all you need.pdf",
+        "Image is Worth 16x16.pdf",
+        "BERT.pdf"
       ],
       "distances": [
         0.632,
         0.656,
         0.862,
         0.891,
-        1.009
+        1.009,
+        1.072,
+        1.143
       ],
       "best_distance": 0.632,
       "rank": 2,
@@ -116,14 +130,22 @@
         "Attention is all you need.pdf",
         "Attention is all you need.pdf",
         "Image is Worth 16x16.pdf",
-        "Image is Worth 16x16.pdf"
+        "Image is Worth 16x16.pdf",
+        "Image is Worth 16x16.pdf",
+        "BERT.pdf",
+        "BERT.pdf",
+        "BERT.pdf"
       ],
       "distances": [
         0.579,
         0.647,
         0.729,
         0.816,
-        0.845
+        0.845,
+        0.855,
+        1.019,
+        1.043,
+        1.048
       ],
       "best_distance": 0.579,
       "rank": 1,
@@ -138,15 +160,17 @@
         "BERT.pdf",
         "BERT.pdf",
         "BERT.pdf",
-        "BERT.pdf",
-        "BERT.pdf"
+        "Image is Worth 16x16.pdf",
+        "Attention is all you need.pdf",
+        "Image is Worth 16x16.pdf"
       ],
       "distances": [
         0.532,
         0.604,
         0.614,
-        0.632,
-        0.663
+        0.773,
+        1.081,
+        1.109
       ],
       "best_distance": 0.532,
       "rank": 1,
@@ -161,15 +185,23 @@
         "BERT.pdf",
         "BERT.pdf",
         "BERT.pdf",
-        "BERT.pdf",
-        "BERT.pdf"
+        "Image is Worth 16x16.pdf",
+        "Attention is all you need.pdf",
+        "Attention is all you need.pdf",
+        "Attention is all you need.pdf",
+        "Generative Adversial Nets.pdf",
+        "Image is Worth 16x16.pdf"
       ],
       "distances": [
         0.605,
         0.615,
         0.645,
-        0.655,
-        0.723
+        0.999,
+        1.032,
+        1.054,
+        1.068,
+        1.155,
+        1.196
       ],
       "best_distance": 0.605,
       "rank": 1,
@@ -184,15 +216,23 @@
         "BERT.pdf",
         "BERT.pdf",
         "BERT.pdf",
-        "BERT.pdf",
-        "Image is Worth 16x16.pdf"
+        "Image is Worth 16x16.pdf",
+        "Attention is all you need.pdf",
+        "Image is Worth 16x16.pdf",
+        "Image is Worth 16x16.pdf",
+        "Attention is all you need.pdf",
+        "Attention is all you need.pdf"
       ],
       "distances": [
         0.919,
         0.922,
         0.938,
-        0.954,
-        0.991
+        0.991,
+        1.009,
+        1.029,
+        1.081,
+        1.11,
+        1.125
       ],
       "best_distance": 0.919,
       "rank": 1,
@@ -207,15 +247,23 @@
         "BERT.pdf",
         "BERT.pdf",
         "BERT.pdf",
-        "BERT.pdf",
-        "BERT.pdf"
+        "Attention is all you need.pdf",
+        "Image is Worth 16x16.pdf",
+        "Attention is all you need.pdf",
+        "Attention is all you need.pdf",
+        "Image is Worth 16x16.pdf",
+        "Image is Worth 16x16.pdf"
       ],
       "distances": [
         0.694,
         0.705,
         0.71,
-        0.711,
-        0.722
+        1.005,
+        1.064,
+        1.087,
+        1.09,
+        1.137,
+        1.14
       ],
       "best_distance": 0.694,
       "rank": 1,
@@ -230,15 +278,15 @@
         "BERT.pdf",
         "BERT.pdf",
         "BERT.pdf",
-        "BERT.pdf",
-        "BERT.pdf"
+        "Image is Worth 16x16.pdf",
+        "Attention is all you need.pdf"
       ],
       "distances": [
         0.5,
         0.522,
         0.616,
-        0.78,
-        0.792
+        0.878,
+        1.005
       ],
       "best_distance": 0.5,
       "rank": 1,
@@ -276,15 +324,13 @@
         "Generative Adversial Nets.pdf",
         "Generative Adversial Nets.pdf",
         "Generative Adversial Nets.pdf",
-        "Generative Adversial Nets.pdf",
-        "Generative Adversial Nets.pdf"
+        "Image is Worth 16x16.pdf"
       ],
       "distances": [
         0.808,
         0.916,
         0.956,
-        0.986,
-        0.991
+        1.186
       ],
       "best_distance": 0.808,
       "rank": 1,
@@ -368,15 +414,13 @@
         "Image is Worth 16x16.pdf",
         "Image is Worth 16x16.pdf",
         "Image is Worth 16x16.pdf",
-        "Image is Worth 16x16.pdf",
-        "Image is Worth 16x16.pdf"
+        "Attention is all you need.pdf"
       ],
       "distances": [
         0.828,
         0.918,
         0.951,
-        1.054,
-        1.088
+        1.165
       ],
       "best_distance": 0.828,
       "rank": 1,
@@ -437,15 +481,19 @@
         "Image is Worth 16x16.pdf",
         "Image is Worth 16x16.pdf",
         "Image is Worth 16x16.pdf",
-        "Image is Worth 16x16.pdf",
-        "Image is Worth 16x16.pdf"
+        "Attention is all you need.pdf",
+        "Attention is all you need.pdf",
+        "BERT.pdf",
+        "Attention is all you need.pdf"
       ],
       "distances": [
         0.997,
         1.038,
         1.039,
-        1.041,
-        1.052
+        1.098,
+        1.143,
+        1.173,
+        1.194
       ],
       "best_distance": 0.997,
       "rank": 1,
@@ -460,15 +508,25 @@
         "Image is Worth 16x16.pdf",
         "Image is Worth 16x16.pdf",
         "Image is Worth 16x16.pdf",
-        "Image is Worth 16x16.pdf",
-        "Image is Worth 16x16.pdf"
+        "BERT.pdf",
+        "Attention is all you need.pdf",
+        "BERT.pdf",
+        "BERT.pdf",
+        "Generative Adversial Nets.pdf",
+        "Attention is all you need.pdf",
+        "Attention is all you need.pdf"
       ],
       "distances": [
         0.685,
         0.709,
         0.714,
-        0.735,
-        0.745
+        1.019,
+        1.069,
+        1.09,
+        1.114,
+        1.158,
+        1.175,
+        1.19
       ],
       "best_distance": 0.685,
       "rank": 1,
@@ -483,14 +541,12 @@
         "Image is Worth 16x16.pdf",
         "Image is Worth 16x16.pdf",
         "Image is Worth 16x16.pdf",
-        "Image is Worth 16x16.pdf",
         "Attention is all you need.pdf"
       ],
       "distances": [
         0.917,
         0.929,
         1.126,
-        1.189,
         1.192
       ],
       "best_distance": 0.917,
@@ -507,21 +563,27 @@
         "BERT.pdf",
         "BERT.pdf",
         "BERT.pdf",
-        "BERT.pdf",
-        "BERT.pdf"
+        "Image is Worth 16x16.pdf",
+        "Image is Worth 16x16.pdf",
+        "Attention is all you need.pdf",
+        "Image is Worth 16x16.pdf",
+        "Attention is all you need.pdf"
       ],
       "distances": [
         0.652,
         0.785,
         0.826,
-        0.935,
-        0.997
+        1.073,
+        1.109,
+        1.159,
+        1.167,
+        1.174
       ],
       "best_distance": 0.652,
       "rank": 1,
       "gate_ok": true,
-      "sources_found": "1/2",
-      "correct": false
+      "sources_found": "2/2",
+      "correct": true
     },
     {
       "id": "cmp-3",
@@ -552,20 +614,20 @@
       "type": "off_topic",
       "question": "How do I fix nginx 502 upstream connection refused?",
       "top_files": [
-        "BERT.pdf",
         "Image is Worth 16x16.pdf",
         "Generative Adversial Nets.pdf",
         "Image is Worth 16x16.pdf",
-        "Image is Worth 16x16.pdf"
+        "Image is Worth 16x16.pdf",
+        "Generative Adversial Nets.pdf"
       ],
       "distances": [
-        1.563,
         1.784,
         1.915,
         1.928,
-        1.953
+        1.953,
+        1.954
       ],
-      "best_distance": 1.563,
+      "best_distance": 1.784,
       "correct": true
     },
     {

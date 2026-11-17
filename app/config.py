@@ -29,7 +29,19 @@ COLLECTION_NAME = os.getenv("COLLECTION_NAME", "incident_docs")
 
 TOP_K = int(os.getenv("TOP_K", 5))  # chunks returned per query
 
+
+
 RELEVANCE_THRESHOLD = float(os.getenv("RELEVANCE_THRESHOLD", 1.2))  # max distance to count as relevant
+BALANCED_RETRIEVAL = os.getenv("BALANCED_RETRIEVAL", "1") == "1"  # 1 = per-paper search, 0 = old plain search
+PER_SOURCE_K = int(os.getenv("PER_SOURCE_K", 3))  # chunks pulled from each paper
+SOURCE_MARGIN = float(os.getenv("SOURCE_MARGIN", 0.3))  # how close to the best match a chunk must be
+
+
+# BALANCED_RETRIEVAL = os.getenv("BALANCED_RETRIEVAL", "1") == "1"  # 1 = per-paper search, 0 = old plain search
+# PER_SOURCE_K = int(os.getenv("PER_SOURCE_K", 3))        # chunks pulled from each paper
+# SOURCE_MARGIN = float(os.getenv("SOURCE_MARGIN", 0.3))  # how close to the best match a chunk must be
+
+# RELEVANCE_THRESHOLD = float(os.getenv("RELEVANCE_THRESHOLD", 1.2))  # max distance to count as relevant
 
 
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "groq")
