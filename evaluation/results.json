@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-17T13:59:47",
+  "run_at": "2026-11-18T08:48:18",
   "config": {
     "chunk_size": 1000,
     "chunk_overlap": 150,
@@ -614,20 +614,20 @@
       "type": "off_topic",
       "question": "How do I fix nginx 502 upstream connection refused?",
       "top_files": [
+        "BERT.pdf",
         "Image is Worth 16x16.pdf",
         "Generative Adversial Nets.pdf",
         "Image is Worth 16x16.pdf",
-        "Image is Worth 16x16.pdf",
-        "Generative Adversial Nets.pdf"
+        "Image is Worth 16x16.pdf"
       ],
       "distances": [
+        1.563,
         1.784,
         1.915,
         1.928,
-        1.953,
-        1.954
+        1.953
       ],
-      "best_distance": 1.784,
+      "best_distance": 1.563,
       "correct": true
     },
     {
